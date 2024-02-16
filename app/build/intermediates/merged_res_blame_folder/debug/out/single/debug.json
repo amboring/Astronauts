@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/layout_fragment_map.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/layout_content_main.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/menu_menu_main.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/layout_item_astronaut.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/layout/item_astronaut.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/drawable_rocket.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/drawable/rocket.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/xml_network_security_config.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/drawable_user_location.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/drawable/user_location.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/navigation_nav_graph.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.al.astronauts.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-merged_res-58:/layout_fragment_location_list.xml.flat",
+        "source": "com.al.astronauts.app-main-60:/layout/fragment_location_list.xml"
+    }
+]

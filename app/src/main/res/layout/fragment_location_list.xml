@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="spaceViewModel"
+            type="com.al.astronauts.viewmodel.SpaceViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/button_view_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/map"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iss_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/button_view_map" />
+
+            <TextView
+                android:id="@+id/iss_location_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{spaceViewModel.issText}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/button_view_map" />
+
+            <TextView
+                android:id="@+id/last_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@{@string/astronaut_last_seen(spaceViewModel.lastIssLocation)}"
+                app:layout_constraintTop_toBottomOf="@id/iss_location_value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/user_location_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/last_location" />
+
+            <TextView
+                android:id="@+id/user_location_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@{spaceViewModel.userLocation==null?@string/empty_string:@string/position(spaceViewModel.userLocation.latitude,spaceViewModel.userLocation.longitude)}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/last_location" />
+
+            <TextView
+                android:id="@+id/distance_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{@string/user_distance_text(spaceViewModel.distance)}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/user_location_value" />
+
+            <TextView
+                android:id="@+id/astronauts_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/astronauts_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/distance_text" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/astronauts_list"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/astronauts_title"
+                tools:listitem="@layout/item_astronaut" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="@{spaceViewModel.loadingVisibility}" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

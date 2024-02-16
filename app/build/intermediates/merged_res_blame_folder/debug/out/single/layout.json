@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.al.astronauts.app-mergeDebugResources-57:/layout/content_main.xml",
+        "source": "com.al.astronauts.app-main-60:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-mergeDebugResources-57:/layout/fragment_location_list.xml",
+        "source": "com.al.astronauts.app-main-60:/layout/fragment_location_list.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-mergeDebugResources-57:/layout/fragment_map.xml",
+        "source": "com.al.astronauts.app-main-60:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-mergeDebugResources-57:/layout/item_astronaut.xml",
+        "source": "com.al.astronauts.app-main-60:/layout/item_astronaut.xml"
+    },
+    {
+        "merged": "com.al.astronauts.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.al.astronauts.app-main-60:/layout/activity_main.xml"
+    }
+]

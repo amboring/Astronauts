@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Astronauts</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Astronauts List</string>
+    <string name="second_fragment_label">Map View</string>
+
+    <string name="map">Map</string>
+    <string name="iss_title">ISS Location:</string>
+    <string name="user_location_title">Your Location:</string>
+    <string name="position">[ %1$s, %2$s ]</string>
+    <string name="user_distance_text">%s from ISS</string>
+    <string name="astronauts_title">Astronauts:</string>
+    <string name="astronaut_name_title">Astronaut: %1$s in %2$s</string>
+    <string name="astronaut_last_seen">was in %s</string>
+    <string name="empty_string"></string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB1PAmQQq8okL8IsY1fO-SvKB_ON4XPOYk</string>
+</resources>
